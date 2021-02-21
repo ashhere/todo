@@ -1,0 +1,103 @@
+body{
+  background-color: #1CDBF5;
+  font-family: 'Play', sans-serif;
+  font-family: 'Texturina', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Texturina:wght@200&display=swap');
+
+
+.app-background{
+  background-color: #131A28;
+  min-height: 70vh;
+  min-width: 50vw;
+  max-width: 700px;
+  margin: 40px auto;
+  color:#18ffff ;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+
+#to-do input {
+  height: 40px;
+  width: 250px;
+  margin: 25px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff59d;
+  align-items: center;
+
+}
+
+#to-do input:focus,#to-do button:focus{
+  outline: none;
+}
+#to-do button{
+  height: 40px;
+  width: 70px;
+  border: 0;
+  cursor: pointer;
+
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+
+.remove{
+  float: right;
+  margin-right: 20px;
+  color: #d50000 ;
+  text-decoration: none;
+
+ 
+}
+
+
+.Btn-reset{
+  height: 500px;
+  width: 50px;
+  border: 0;
+  cursor: pointer;
+ 
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-right: 2px;
+  float: bottom;
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   background-color: rgb(226, 223, 26);
+
+}
+
+.Btn-reset:hover{
+  background-color: #b71c1c;
+  color: #241313;
+}
+
+.heading {
+  border: 1px solid #131A28;
+  background-color: #131A28;
+  color: #1CDBF5;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 23px;
+  max-width: 55vw;
+  min-width: 40vw;
+ 
+  margin: 0px auto;
+  
+ 
+}
+
+.add-btn{
+  background-color:  rgb(230, 194, 39);
+}
+.add-btn:hover{
+color: rgb(223, 170, 25);
+background-color: rgb(24, 24, 165);
+}
